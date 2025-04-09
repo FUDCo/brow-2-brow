@@ -1,10 +1,9 @@
 {
-  "name": "libp2p-webrtc-guide",
+  "name": "brow-2-brow",
   "version": "1.0.0",
   "private": true,
   "type": "module",
-  "description": "associated code for the libp2p webrtc guide",
-  "license": "ISC",
+  "description": "Browser-to-browser libp2p communications proof of concept",
   "scripts": {
     "clean": "rimraf ./dist",
     "build:dev": "mkdir -p dist && ln -fs ../src/index.html dist/index.html",
